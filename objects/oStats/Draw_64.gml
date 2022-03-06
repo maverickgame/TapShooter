@@ -4,9 +4,9 @@
 draw_set_color (c_white);
 draw_text(40,50,global.points);
 
-draw_text(50,100,displayx);
+draw_text(50,100,"commit git");
 draw_text(50,150,displayy);
-draw_text(displayx,displayy,"0000hahaha1111");
+draw_text(displayx,displayy,"testing commit");
 
 //healthbar display
 draw_sprite (sHealthbar_bg,0,healthbar_x,healthbar_y);
