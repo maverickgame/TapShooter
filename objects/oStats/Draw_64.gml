@@ -4,7 +4,7 @@
 draw_set_color (c_white);
 draw_text(40,50,global.points);
 
-draw_text(50,100,"commit git 2nd");
+draw_text(50,100,"commit git 3rd");
 draw_text(50,150,displayy);
 draw_text(displayx,displayy,"testing commit");
 
