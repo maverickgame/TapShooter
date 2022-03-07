@@ -7,7 +7,7 @@ displayy = display_get_gui_width();
 global.points = 0;
 
 //healthpoints
-global.playerhp = 3;
+global.playerhp = 50;
 global.playermaxhp = 50 ;
 
 healthbar_width = 100;
