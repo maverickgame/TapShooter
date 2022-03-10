@@ -10,10 +10,12 @@ shooting = false;
 shoot_delay = 20;
 alarm_set(0,shoot_delay);
 
+keyboard = false;
+
 ///@function		shoot(_direction)
 ///@description		An shooting example using the Virtual Joystick
 function shoot(_direction){
-	iShot = instance_create_layer(x,y-(sprite_yoffset*image_yscale),"Instances",obj_shot);
+	iShot = instance_create_layer(x,y-(sprite_yoffset*image_yscale),"Instances",oBullet);
 	with(iShot){
 		if(other.speed > 0){
 			speed = other.speed * 1.8;
