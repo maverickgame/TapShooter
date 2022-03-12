@@ -62,19 +62,19 @@ function vJoystick_init(){
 	
 	// Get then middle of the screen
 	//Landscape
-	global.scrMiddle.x0 = 1600/2;
-	global.scrMiddle.x1 = 1600/2;
+	global.scrMiddle.x0 = window_get_width()()/2;
+	global.scrMiddle.x1 = window_get_width()/2;
 	global.scrMiddle.y0 = 0;
-	global.scrMiddle.y1 = 720;
+	global.scrMiddle.y1 = window_get_height();
 	
 	// Get the left and right screen zones
 	global.sZ.l.sX = 0;							// Left zone start
-	global.sZ.l.eX = 1600/2-1;	// Left zone end
-	global.sZ.r.sX = 1600/2+1;	// Right zone start
-	global.sZ.r.eX = 1600;		// right zone end
+	global.sZ.l.eX = window_get_width()/2-1;	// Left zone end
+	global.sZ.r.sX = window_get_width()/2+1;	// Right zone start
+	global.sZ.r.eX = window_get_width();		// right zone end
 	// y-axis limits
 	global.minY = 0;							// Screen top (y-axis)
-	global.maxY = 720;			// Screen end (y-axis)
+	global.maxY = window_get_height();			// Screen end (y-axis)
 	
 	/*
 	*	Initial configuration (Landscape)
@@ -84,11 +84,11 @@ function vJoystick_init(){
 	*/
 	
 	// Create the default configuration
-	var mainRadius = 75;		// Change this value as you need
-	var xl = 1600*0.15;		// Left joystick's x-axis position
-	var yl = 720*0.9;	    // Left joystick's y-axis position
-	var xr = 1600*0.85;		// Right joystick's x-axis position
-	var yr = 720*0.9;			// Right joystick's y-axis position
+	var mainRadius = 150;		// Change this value as you need
+	var xl = global.sZ.l.sX + mainRadius*1.5;		// Left joystick's x-axis position
+	var yl = global.maxY - mainRadius*1.5;			// Left joystick's y-axis position
+	var xr = global.sZ.r.eX - mainRadius*1.5;		// Right joystick's x-axis position
+	var yr = global.maxY - mainRadius*1.5;			// Right joystick's y-axis position
 	var jr = mainRadius*0.5;						// inner joystick's circle radius
 	var dzr = mainRadius*0.25;						// deadzone radius
 	
