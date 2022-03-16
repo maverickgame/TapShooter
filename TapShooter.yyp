@@ -1,7 +1,6 @@
 {
   "resources": [
     {"id":{"name":"Gamepause","path":"rooms/Gamepause/Gamepause.yy",},"order":2,},
-    {"id":{"name":"vJoystick_init","path":"scripts/vJoystick_init/vJoystick_init.yy",},"order":10,},
     {"id":{"name":"vjCreateLeftVirtualJoystick","path":"scripts/vjCreateLeftVirtualJoystick/vjCreateLeftVirtualJoystick.yy",},"order":1,},
     {"id":{"name":"vjGetDeviceController_Instance","path":"scripts/vjGetDeviceController_Instance/vjGetDeviceController_Instance.yy",},"order":5,},
     {"id":{"name":"sHealthbar_bg","path":"sprites/sHealthbar_bg/sHealthbar_bg.yy",},"order":6,},
@@ -9,6 +8,7 @@
     {"id":{"name":"vjVirtualJoystick","path":"scripts/vjVirtualJoystick/vjVirtualJoystick.yy",},"order":11,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
     {"id":{"name":"sBullet","path":"sprites/sBullet/sBullet.yy",},"order":3,},
+    {"id":{"name":"vJoystick_init","path":"scripts/vJoystick_init/vJoystick_init.yy",},"order":12,},
     {"id":{"name":"vjCreateBasicConfig","path":"scripts/vjCreateBasicConfig/vjCreateBasicConfig.yy",},"order":0,},
     {"id":{"name":"vjGetTouchCount","path":"scripts/vjGetTouchCount/vjGetTouchCount.yy",},"order":7,},
     {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},"order":1,},
