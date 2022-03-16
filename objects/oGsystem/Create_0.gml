@@ -1,7 +1,7 @@
 /// @description Game stat tracker
 //screen display
 displayx = display_get_gui_width();
-displayy = display_get_gui_width();
+displayy = display_get_gui_height();
 
 //score
 global.points = 0;

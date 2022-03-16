@@ -9,3 +9,4 @@ gamepause = false;
 
 get_Middle_x = round(display_get_gui_width()/2);
 get_Middle_y = round(display_get_gui_height()/2);
+
