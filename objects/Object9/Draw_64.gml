@@ -6,3 +6,4 @@ draw_text(10,30, "sx: " + string(sx) + " sy: " + string(sy));
 draw_text(10,40, "wx: " + string(wx) + " wy: " + string(wy));
 draw_text(10,50, "mmx: " + string(mmx) + " mmy: " + string(mmy));
 draw_text(10,60, "guix: " + string(guix) + " guiy: " + string(guiy));
+draw_text(10,70, "opx: " + string(opx) + " opy: " + string(opy));

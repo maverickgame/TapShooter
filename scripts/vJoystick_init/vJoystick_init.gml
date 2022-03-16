@@ -84,11 +84,11 @@ function vJoystick_init(){
 	*/
 	
 	// Create the default configuration
-	var mainRadius = 75;		// Change this value as you need
-	var xl = global.sZ.l.sX + mainRadius*1.1;		// Left joystick's x-axis position
-	var yl = global.maxY - mainRadius*1.1;			// Left joystick's y-axis position
-	var xr = global.sZ.r.eX - mainRadius*1.1;		// Right joystick's x-axis position
-	var yr = global.maxY - mainRadius*1.1;			// Right joystick's y-axis position
+	var mainRadius = 25;		// Change this value as you need
+	var xl = global.sZ.l.sX + mainRadius*1.5;		// Left joystick's x-axis position
+	var yl = global.maxY - mainRadius*1.5;			// Left joystick's y-axis position
+	var xr = global.sZ.r.eX - mainRadius*1.5;		// Right joystick's x-axis position
+	var yr = global.maxY - mainRadius*1.5;			// Right joystick's y-axis position
 	var jr = mainRadius*0.5;						// inner joystick's circle radius
 	var dzr = mainRadius*0.25;						// deadzone radius
 	

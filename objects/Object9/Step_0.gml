@@ -14,3 +14,5 @@ mmx = window_mouse_get_x();
 mmy = window_mouse_get_y();
 guix = device_mouse_x_to_gui(0);
 guiy = device_mouse_x_to_gui(0);
+opx = oPlayer.x;
+opy = oPlayer.y;

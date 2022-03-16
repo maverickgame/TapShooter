@@ -1,9 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
-//if (room != Gamepause)
-//{
-//	room_goto(Gamepause);
-//}
-//else
+with (other)
+{
+	hp--;
+	image_index = 1;
+}
 
-//room_goto(Game);
+instance_destroy();
