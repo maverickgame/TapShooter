@@ -4,6 +4,7 @@
 //displayx = display_get_gui_width();
 //displayy = display_get_gui_width();
 
+//instance_create_layer(display_get_gui_width()*0.3,display_get_gui_height()*0.01, "Instances", oPause);
 gamepause = false;
 
 
