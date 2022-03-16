@@ -5,3 +5,6 @@ keystore:
 
 keyhash:
 F0:06:A8:2A:6D:FF:20:7C:1B:C1:51:57:87:4F:03:9
+
+It isnt time changes things, doing things does. 
+Not doing anything leaves things as they are.

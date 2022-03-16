@@ -85,8 +85,8 @@ function vjVirtualJoystick(_side,_config) constructor{
 			return;
 		}
 		active = device_mouse_check_button(device,mb_left);
-		x1 = device_mouse_x(device);
-		y1 = device_mouse_y(device);
+		x1 = device_mouse_x_to_gui(device);	//san x1 = device_mouse_x(device);
+		y1 = device_mouse_y_to_gui(device);	//san y1 = device_mouse_y(device);
 		
 		vj_distance = point_distance(jX,jY,x,y);		// Distance from Joystick to the center
 		jDistance = point_distance(x1,y1,x,y);			
