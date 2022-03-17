@@ -7,7 +7,7 @@ draw_self();
 // Player movment Left, Right, Up and Down
 if(lJ != noone && lJ.isActive() == true){
 	direction = lJ.getDirection();
-	speed = 3;
+	speed = global.mov;
 }else{
 	speed = 0
 }

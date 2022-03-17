@@ -20,3 +20,9 @@ if (global.playerhp<=0)
 {
 	room_goto(Gameover);
 }
+
+//global stat upgrade
+global.lvl = global.points/10;
+global.mov = global.spd + global.lvl/2;
+global.dmg = global.atk + global.lvl/2;
+global.arm = global.def + global.lvl/2;

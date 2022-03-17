@@ -19,3 +19,17 @@ healthbar_height = 18;
 global.seconds =0;
 global.minutes =0;
 global.hours = 0;
+
+
+//stats
+global.exp = 0;
+global.lvl = 0;
+
+global.atk = 1;
+global.dmg = 0;
+
+global.def = 1;
+global.arm = 0;
+
+global.spd = 1.5;
+global.mov = 0;
