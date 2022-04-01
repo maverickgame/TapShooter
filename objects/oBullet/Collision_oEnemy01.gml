@@ -2,7 +2,7 @@
 // You can write your code in this editor
 with (other)
 {
-	hp = hp -3;
+	hp = hp - global.dmg;
 	image_index = 1;
 }
 

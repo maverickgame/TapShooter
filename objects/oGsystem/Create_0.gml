@@ -1,4 +1,4 @@
-/// @description Game stat tracker
+/// @description Game stat tracker 1
 //screen display
 displayx = display_get_gui_width();
 displayy = display_get_gui_height();
