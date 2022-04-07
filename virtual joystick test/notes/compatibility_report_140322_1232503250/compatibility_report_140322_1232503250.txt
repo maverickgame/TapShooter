@@ -1,0 +1,77 @@
+Converting GML script: ${project_dir}\scripts\vstick_set_frontsprite\vstick_set_frontsprite.gml
+Converted description /// @description vstick_set_frontsprite(id,sprite)/// @param id
+/// @param sprite
+
+Converting GML script: ${project_dir}\scripts\vstick_get_frontsprite\vstick_get_frontsprite.gml
+Converted description /// @description vstick_get_frontsprite(id)/// @param id
+
+Converting GML script: ${project_dir}\scripts\vstick_set_backsprite\vstick_set_backsprite.gml
+Converted description /// @description vstick_set_backsprite(id,sprite)/// @param id
+/// @param sprite
+
+Converting GML script: ${project_dir}\scripts\vstick_get_backsprite\vstick_get_backsprite.gml
+Converted description /// @description vstick_get_backsprite(id)/// @param id
+
+Converting GML script: ${project_dir}\scripts\vstick_get_active\vstick_get_active.gml
+Converted description /// @description vstick_get_active(id)/// @param id
+
+Converting GML script: ${project_dir}\scripts\vstick_set_active\vstick_set_active.gml
+Converted description /// @description vstick_set_active(id,active)/// @param id
+/// @param active
+
+Converting GML script: ${project_dir}\scripts\vstick_set_radius\vstick_set_radius.gml
+Converted description /// @description vstick_set_radius(id,r);/// @param id
+/// @param r
+
+Converting GML script: ${project_dir}\scripts\vstick_get_radius\vstick_get_radius.gml
+Converted description /// @description vstick_get_radius(id)/// @param id
+
+Converting GML script: ${project_dir}\scripts\vstick_set_y\vstick_set_y.gml
+Converted description /// @description vstick_set_y(id,y);/// @param id
+/// @param y
+
+Converting GML script: ${project_dir}\scripts\vstick_get_y\vstick_get_y.gml
+Converted description /// @description vstick_get_y(id)/// @param id
+
+Converting GML script: ${project_dir}\scripts\vstick_set_x\vstick_set_x.gml
+Converted description /// @description vstick_set_x(id,x);/// @param id
+/// @param x
+
+Converting GML script: ${project_dir}\scripts\vstick_get_x\vstick_get_x.gml
+Converted description /// @description vstick_get_x(id)/// @param id
+
+Converting GML script: ${project_dir}\scripts\vstick_get_yaxis\vstick_get_yaxis.gml
+Converted description /// @description vstick_get_yaxis(id) /// @param id
+
+Converting GML script: ${project_dir}\scripts\vstick_get_xaxis\vstick_get_xaxis.gml
+Converted description /// @description vstick_get_xaxis(id) /// @param id
+
+Converting GML script: ${project_dir}\scripts\vstick_get_direction\vstick_get_direction.gml
+Converted description /// @description vstick_get_direction(id)/// @param id
+
+Converting GML script: ${project_dir}\scripts\vstick_get_deviation\vstick_get_deviation.gml
+Converted description /// @description vstick_get_deviation(id)/// @param id
+
+Converting GML script: ${project_dir}\scripts\vstick_check\vstick_check.gml
+Converted description /// @description vstick_check(id)/// @param id
+
+Converting GML script: ${project_dir}\scripts\vstick_check_pressed\vstick_check_pressed.gml
+Converted description /// @description vstick_check_pressed(id)/// @param id
+
+Converting GML script: ${project_dir}\scripts\vstick_check_released\vstick_check_released.gml
+Converted description /// @description vstick_check_released(id)/// @param id
+
+Converting GML script: ${project_dir}\scripts\vstick_draw\vstick_draw.gml
+Converted description /// @description vstick_draw(vstick_id)/// @param vstick_id
+
+Converting GML script: ${project_dir}\scripts\vstick_step\vstick_step.gml
+Converted description /// @description vstick_step(vstick_id)/// @param vstick_id
+
+Converting GML script: ${project_dir}\scripts\vstick_init\vstick_init.gml
+Converted description /// @description vstick_init(stick_id,x,y,r,square_calculation,backsprite,frontsprite)/// @param stick_id
+/// @param x
+/// @param y
+/// @param r
+/// @param square_calculation
+/// @param backsprite
+/// @param frontsprite
