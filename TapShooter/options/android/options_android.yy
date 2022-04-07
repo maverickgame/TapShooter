@@ -58,7 +58,7 @@
   "option_android_facebook_app_display_name": "",
   "option_android_google_cloud_saving": false,
   "option_android_google_services_app_id": "",
-  "option_android_permission_write_external_storage": false,
+  "option_android_permission_write_external_storage": true,
   "option_android_permission_read_phone_state": false,
   "option_android_permission_network_state": false,
   "option_android_permission_internet": true,
