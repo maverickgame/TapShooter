@@ -3,7 +3,7 @@
 with (other)
 {
 	hp = hp - global.dmg;
-	image_index = 1;
+	image_index = 6;
 }
 
 instance_destroy();
