@@ -1,24 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
-//if (room != Gamepause)
-//{
-//	room_goto(Gamepause);
-//}
-//else
+tguix = event_data[? "guiposX"];
+tguiy = event_data[? "guiposY"];
 
-//room_goto(Game);
-//if (gamepause = false)
-//{
-//	instance_deactivate_layer("Instances");
-//	gamepause = true;
-//}
 
-//if (gamepause = true)
-//{
-//	instance_activate_layer("Instances");
-//	gamepause = false;
-//}
-
+if (tguiy <= 30 && tguix <=50)
 switch (gamepause)
 {
 	case false: 
@@ -31,6 +17,5 @@ switch (gamepause)
 	gamepause = false;
 	break;
 }
-
 
 

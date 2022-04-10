@@ -16,3 +16,5 @@ guix = device_mouse_x_to_gui(0);
 guiy = device_mouse_x_to_gui(0);
 opx = oPlayer.x;
 opy = oPlayer.y;
+
+
