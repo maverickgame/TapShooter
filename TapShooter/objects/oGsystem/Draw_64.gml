@@ -1,4 +1,7 @@
 /// @description Stats display
+draw_set_valign(fa_left);
+draw_set_halign(fa_top);
+
 
 //points display
 draw_set_color (c_white);

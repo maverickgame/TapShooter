@@ -3,7 +3,7 @@
 
 time = max(time-1,10);
 alarm [0] = time;
-sprite = irandom_range(0,7);
+sprite = irandom_range(0,1);
 
 if sprite == 0
 {
