@@ -17,4 +17,4 @@ guiy = device_mouse_x_to_gui(0);
 opx = oPlayer.x;
 opy = oPlayer.y;
 
-
+count = instance_number(oEnemy01)+instance_number(oEnemy02);
