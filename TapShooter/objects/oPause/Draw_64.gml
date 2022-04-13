@@ -9,7 +9,8 @@ if (gamepause == true)
 	draw_set_color (c_white);
 	draw_set_valign(fa_middle);
 	draw_set_halign(fa_middle);
-	draw_text(display_get_gui_width()*0.5, display_get_gui_height()*0.2, "Game Paused");
+	draw_text(display_get_gui_width()*0.5, display_get_gui_height()*0.1, "Game Paused");
+	draw_text(display_get_gui_width()*0.5, display_get_gui_height()*0.2, "Enemy Difficulty X " + string(global.stage));
 	draw_text(display_get_gui_width()*0.5, display_get_gui_height()*0.3, "Level: " + string(global.lvl));
 	draw_text(display_get_gui_width()*0.5, display_get_gui_height()*0.4, "Attack: " + string(global.dmg));
 	draw_text(display_get_gui_width()*0.5, display_get_gui_height()*0.5, "Defense: " + string(global.arm));

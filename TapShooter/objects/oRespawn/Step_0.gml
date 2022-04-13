@@ -1,6 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-tuix = 0;
-tuiy = 0;
-ecount = 0;
+ecount = instance_number(oEnemy01) + instance_number(oEnemy02); //check enemy count
 scount = 50 + global.stage;
