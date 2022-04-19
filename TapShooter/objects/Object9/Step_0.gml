@@ -18,3 +18,5 @@ opx = oPlayer.x;
 opy = oPlayer.y;
 
 count = instance_number(oEnemy01)+instance_number(oEnemy02);
+
+

@@ -22,7 +22,9 @@ if (global.playerhp<=0)
 }
 
 //global stat upgrade
-global.lvl = global.points/10;
-global.mov = global.spd + global.lvl/2;
-global.dmg = global.atk + global.lvl/2;
-global.arm = global.def + global.lvl/2;
+global.lvl = global.points div 10;
+global.mov = global.spd + global.lvl div 2;
+global.dmg = global.atk + global.lvl div 2;
+global.arm = global.def + global.lvl div 2;
+global.stage = +global.minutes div 1;
+
