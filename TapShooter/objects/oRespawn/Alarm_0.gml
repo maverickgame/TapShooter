@@ -3,15 +3,6 @@
 
 time = max(time-1,10);
 alarm [0] = time;
-
-if (scount <= ecount)
-{
-	time = 30;
-}
-
-
-else
-{
 sprite = irandom_range(0,1);
 
 if sprite == 0
@@ -51,5 +42,4 @@ if sprite == 6
 if sprite == 7
 {
 	instance_create_layer(random(500),random(500),layer,oEnemy08);
-}
 }

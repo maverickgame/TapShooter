@@ -33,5 +33,3 @@ global.arm = 0;
 
 global.spd = 1.5;
 global.mov = 0;
-
-global.stage = 1
