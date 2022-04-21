@@ -12,3 +12,7 @@ gamepause = false;
 //get_Middle_y = round(display_get_gui_height()/2);
 tguix = 0;
 tguiy = 0;
+
+
+//background
+layer_background_sprite(layer_background_get_id("Bck01"), choose(Bck01));

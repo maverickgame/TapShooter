@@ -1,7 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
+//if global.respawn = true
+//{
 if (maxcount > count)
 
 {
@@ -56,3 +57,4 @@ else
 	alarm [0] = 60;
 }
 	
+//}
