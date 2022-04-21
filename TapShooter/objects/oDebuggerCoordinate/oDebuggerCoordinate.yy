@@ -30,7 +30,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Object9",
+  "name": "oDebuggerCoordinate",
   "tags": [],
   "resourceType": "GMObject",
 }
