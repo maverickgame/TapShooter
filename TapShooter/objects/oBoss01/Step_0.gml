@@ -10,7 +10,7 @@ if (hp <=0)
 {
 	global.points = global.points +10;
 	global.respawn = false;
-	instance_create_layer(x,y,"Instances",oExplosion);
+	instance_create_layer(x,y,"Instances",oPortal);
 
 	instance_destroy();
 }

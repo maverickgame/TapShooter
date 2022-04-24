@@ -32,3 +32,7 @@ function shoot(_direction)
 	}
 	//You must destroy the object when it is out of the screen
 }
+
+
+
+knockdist=0;

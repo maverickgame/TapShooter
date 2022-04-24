@@ -3,6 +3,6 @@
 
 
 draw_self()
-draw_circle(x,y,100,true);
+draw_circle(x,y,200,true);
 draw_set_halign(fa_middle)
 draw_text(x,y+30, string(hp) + "%");

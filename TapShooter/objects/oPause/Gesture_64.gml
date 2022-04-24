@@ -25,6 +25,7 @@ if (tguiy <= 30 && tguix >=400)
 	layer_background_sprite(layer_background_get_id("Bck01"), choose(Bck01,Bck02,Bck03,Bck04));
 	global.respawn = true;
 	instance_create_layer(random(500),random(225),layer,oGateway);
-	room_restart()
+	instance_destroy(oEnemy01);
+	instance_destroy(oEnemy02);
 }
 

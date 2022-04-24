@@ -1,12 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-active = point_distance(x, y, oPlayer.x, oPlayer.y) <= 100;
+active = point_distance(x, y, oPlayer.x, oPlayer.y) <= 200;
 
 if (active) 
 { 
      image_speed =0.5;
-	 hp = hp+10;
+	 hp = hp+1;
 	 if image_index = 6
 	 {
 		 image_index =3;

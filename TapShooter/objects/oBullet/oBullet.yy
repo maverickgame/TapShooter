@@ -35,8 +35,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Game Room",
+    "path": "folders/Objects/Game Room.yy",
   },
   "resourceVersion": "1.0",
   "name": "oBullet",
