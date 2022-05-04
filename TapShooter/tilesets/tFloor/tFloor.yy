@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "sFloor",
+    "path": "sprites/sFloor/sFloor.yy",
+  },
   "tileWidth": 16,
   "tileHeight": 16,
   "tilexoff": 0,
