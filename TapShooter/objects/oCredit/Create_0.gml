@@ -1,3 +1,21 @@
+/// @description Insert description here
+// You can write your code in this editor
+
+tap = 0;
+
+//Starting positions
+texty = room_height;  
+textx = room_width/2;
+
+//Space between lines
+line_height = 16;
+
+//Scrolling speed
+scroll_speed = 1;
+
+credit = false;
+
+texts = @"
 Designer : Sanjaya
 
 Programmer : Sanjaya
@@ -33,3 +51,5 @@ http://www.freepik.com>Designed by dgim-studio / Freepik
 https://nectanebo.itch.io/menu-buttons
 
 https://ellr.itch.io/universal-ui-soundpack
+
+";
