@@ -18,6 +18,13 @@ switch (gamepause)
 	break;
 }
 
+if (tguiy <= 30 && tguix >=60 && tguix <=200)
+{
+	room_goto(Start);
+	audio_stop_all();
+}
+
+
 
 
 var layer_id = layer_get_id("WallTiles");

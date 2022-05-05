@@ -4,6 +4,7 @@
 draw_sprite (sPause,0,display_get_gui_width()*0.02,display_get_gui_height()*0.01);
 //draw_self ();
 
+
 if (gamepause == true)
 {
 	draw_set_color (c_black);
@@ -15,6 +16,7 @@ if (gamepause == true)
 	draw_text(display_get_gui_width()*0.5, display_get_gui_height()*0.5, "Attack: " + string(global.dmg));
 	draw_text(display_get_gui_width()*0.5, display_get_gui_height()*0.6, "Defense: " + string(global.arm));
 	draw_text(display_get_gui_width()*0.5, display_get_gui_height()*0.7, "Speed: " + string(global.mov));
+	draw_sprite (sHome,0,display_get_gui_width()*0.30,display_get_gui_height()*0.01);
 }
 
 
