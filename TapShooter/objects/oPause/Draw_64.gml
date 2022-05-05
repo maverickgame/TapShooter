@@ -6,7 +6,7 @@ draw_sprite (sPause,0,display_get_gui_width()*0.02,display_get_gui_height()*0.01
 
 if (gamepause == true)
 {
-	draw_set_color (c_white);
+	draw_set_color (c_black);
 	draw_set_valign(fa_middle);
 	draw_set_halign(fa_middle);
 	draw_text(display_get_gui_width()*0.5, display_get_gui_height()*0.2, "Game Paused");

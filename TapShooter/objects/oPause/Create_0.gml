@@ -15,4 +15,4 @@ tguiy = 0;
 
 
 //background
-layer_background_sprite(layer_background_get_id("Bck01"), choose(Bck01));
+//layer_background_sprite(layer_background_get_id("Bck01"), choose(Bck01));

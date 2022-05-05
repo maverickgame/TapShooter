@@ -7,3 +7,4 @@ image_index = 0;
 cankillplayer = false;
 alarm [0] = 60;
 sprite_index = choose(sEnemy01,sEnemy02,sEnemy03,sEnemy04);
+//alarm [1] = 10;

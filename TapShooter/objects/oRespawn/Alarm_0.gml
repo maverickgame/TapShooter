@@ -8,11 +8,14 @@ if (maxcount > count)
 {
 time = max(time-1,10);
 alarm [0] = time;
-sprite = irandom_range(0,1);
+sprite = irandom_range(0,0);
 
 	if sprite == 0
 	{
-		instance_create_layer(random(500),random(500),layer,oEnemy01);
+		//instance_create_layer(random(500),random(500),layer,oEnemy01);
+		instance_create_layer(spawnx,spawny,layer,oEnemy01);
+		spawnx = irandom_range(100, 500);
+		spawny = irandom_range(100, 500);
 	}
 
 	if sprite == 1

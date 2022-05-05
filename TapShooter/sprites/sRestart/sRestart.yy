@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Gameover menu",
+    "path": "folders/Sprites/Gameover menu.yy",
   },
   "resourceVersion": "1.0",
   "name": "sRestart",

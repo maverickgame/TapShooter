@@ -1,6 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+image_speed = 1;
+image_index = 0;
+sprite_index = choose(sPlayer1, sPlayer2, sPlayer3, sPlayer4);
+
 // Get the Left and Right Joystick instances
 dC = vjGetDeviceController_Instance();
 lJ = dC.getLeftJoystick();		// Left Joystick instance
