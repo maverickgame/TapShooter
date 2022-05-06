@@ -11,6 +11,6 @@ if (hp <=0)
 	global.points = global.points +10;
 	global.respawn = false;
 	instance_create_layer(x,y,"Instances",oPortal);
-
 	instance_destroy();
+	audio_play_sound(Explosion_22__3_,1000,false);
 }

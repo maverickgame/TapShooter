@@ -11,5 +11,5 @@ if (hp <=0)
 	global.points = global.points +1;
 	instance_create_layer(x,y,"Instances",oExplosion);
 	instance_destroy();
-
-}
+	audio_play_sound(Explosion_9,1000,false);
+} 

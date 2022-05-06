@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sRestart",
-    "path": "sprites/sRestart/sRestart.yy",
+    "name": "sRestart2",
+    "path": "sprites/sRestart2/sRestart2.yy",
   },
   "solid": false,
   "visible": true,
@@ -22,6 +22,7 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":13,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

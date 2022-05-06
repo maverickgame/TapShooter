@@ -18,4 +18,5 @@ if (place_meeting(x, y, Bosshit))
 	x += lengthdir_x(100, knockback_direction);
 	y += lengthdir_y(100, knockback_direction);
 	global.playerhp = global.playerhp-10;
+	audio_play_sound(Hit_hurt_106,1000,false);
 }
