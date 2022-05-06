@@ -16,7 +16,7 @@ draw_text_ext(textx, texty, string(texts), line_height, display_get_gui_width()-
 draw_set_color(c_green);
 draw_set_halign(fa_top);
 draw_set_valign(fa_left);
-draw_text_ext(0,0, "Double tap to exit " + string((string_height(texts)+texty) div 10), line_height, display_get_gui_width()-32);
+draw_text_ext(0,0, string((string_height(texts)+texty) div 10), line_height, display_get_gui_width()-32);
 
 draw_self();
 }

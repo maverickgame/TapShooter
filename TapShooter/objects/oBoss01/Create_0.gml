@@ -6,6 +6,6 @@ image_speed = 1;
 image_index = 0;
 cankillplayer = false;
 alarm [0] = 60;
-sprite_index = choose(sEnemy09,sEnemy10,sEnemy11,sEnemy12);
+sprite_index = choose(sEnemy13,sEnemy14,sEnemy15,sEnemy16);
 image_xscale += 4;
 image_yscale = image_xscale;
