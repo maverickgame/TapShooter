@@ -4,7 +4,7 @@
 
 count = instance_number(oEnemy01)+instance_number(oEnemy02)+instance_number(oEnemy03);
 
-maxcount = 10 + global.stage;
+maxcount = 2 + global.stage;
 
 
 if global.respawn = false

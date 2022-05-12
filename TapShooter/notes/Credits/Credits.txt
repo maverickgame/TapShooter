@@ -1,8 +1,12 @@
-Designer : Sanjaya
+Designer: 
+Sanjaya
 
-Programmer : Sanjaya
+Programmer: 
+Sanjaya
 
-Special thanks to Itch.IO for the following:
+Special thanks for the following:
+
+https://www.youtube.com/watch?v=dKSJ8IKpa28&t=1s
 
 https://nyknck.itch.io/explosion
 

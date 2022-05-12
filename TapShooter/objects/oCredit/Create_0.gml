@@ -16,11 +16,15 @@ scroll_speed = 1;
 credit = false;
 
 texts = @"
-Designer : Sanjaya
+Designer: 
+Sanjaya
 
-Programmer : Sanjaya
+Programmer: 
+Sanjaya
 
-Special thanks to Itch.IO for the following:
+Special thanks for the following:
+
+https://www.youtube.com/watch?v=dKSJ8IKpa28&t=1s
 
 https://nyknck.itch.io/explosion
 
@@ -51,5 +55,11 @@ http://www.freepik.com>Designed by dgim-studio / Freepik
 https://nectanebo.itch.io/menu-buttons
 
 https://ellr.itch.io/universal-ui-soundpack
+
+https://taarna23.itch.io/1000-egg-sprites
+
+https://peter234bike.itch.io/pixel-art-eggs
+
+https://gamesupply.itch.io/1000-nintendo-sound-effects
 
 ";

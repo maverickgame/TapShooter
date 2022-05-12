@@ -6,7 +6,7 @@
 if (maxcount > count)
 
 {
-time = max(time-1,10);
+time = irandom_range(10,60);
 alarm [0] = time;
 sprite = irandom_range(0,2);
 
